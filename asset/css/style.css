@@ -76,14 +76,15 @@ body{
 }
 
 .second-container{
-    height: 100px;
-    background-color: #5DADE2;
+    padding: 20px 0;
+}
 
+.second-container h2{
+    font-size: 2em;
 }
 
 .third-container{
     height: 500px;
-    background-color: #0B6DED  ;
 
 }
 .third-container::after{
@@ -95,31 +96,55 @@ body{
 .box1{
     height: 450px;
     width: 24%;
-    background-color: #5DADE2; 
-    
     float: left;
     margin-top: 25px;
     margin-bottom: 25px;
+    
 
+}
+.bg-1{
+    background-image: url('../img/img-1.jpg');
+    background-position: center;
+    background-size:cover;
+    height: 50%;
+    width: 100%;
+    position: relative;
+    
 }
 .box2{
     height: 450px;
-    background-color: #5DADE2;
     width: 48%;
     float: left;
     margin-left: 2%;
     margin-top: 25px;
     margin-bottom: 25px;
     
+    
+}
+.bg-2{
+    background-image: url('../img/banner-2.jpg');
+    background-position: center;
+    background-size:cover;
+    height: 50%;
+    width: 100%;
+    position: relative;
 }
 .box3{
     height: 450px;
-    background-color: #5DADE2 ;
     width: 24%;
     float: left;
     margin-left: 2%;
     margin-top: 25px;
     margin-bottom: 25px;
+    
+}
+.bg-3{
+    background-image: url('../img/img-3.jpg');
+    background-position: center;
+    background-size:cover;
+    height: 50%;
+    width: 100%;
+    position: relative;
 }
 
 
@@ -127,4 +152,7 @@ footer{
     height: 100px;
     background-color:#500BED ;
 
+}
+h3{
+    padding: 20px 0;
 }
