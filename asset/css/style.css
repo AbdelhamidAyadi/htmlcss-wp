@@ -9,13 +9,43 @@
 
 body{
     margin: 1% 10%;
+    
 }
 
 
-header{
-    height: 100px;
-    background-color:#9B59B6;
+.logo{
+    height: 90%;
+    
+    
 }
+.menu{
+    height: 40%;
+    
+}
+
+.logo img{
+    height: 70px;
+
+}
+
+
+.menu li{
+    display:inline-block;
+    padding: 0 10px;
+    list-style:none;
+    
+}
+
+.menu li a{
+    text-decoration: none;
+}
+
+.menu ul{
+    padding:30px;
+}
+
+
+
 
 .first-container{
     height: 500px;
@@ -42,7 +72,7 @@ header{
 
 .box1{
     height: 450px;
-    width: 18%;
+    width: 24%;
     background-color: #5DADE2; 
     
     float: left;
@@ -55,7 +85,7 @@ header{
     background-color: #5DADE2;
     width: 48%;
     float: left;
-    margin-left: 8%;
+    margin-left: 2%;
     margin-top: 25px;
     margin-bottom: 25px;
     
@@ -63,9 +93,9 @@ header{
 .box3{
     height: 450px;
     background-color: #5DADE2 ;
-    width: 18%;
-    float: right;
-    margin-left: 8%;
+    width: 24%;
+    float: left;
+    margin-left: 2%;
     margin-top: 25px;
     margin-bottom: 25px;
 }
