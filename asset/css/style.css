@@ -150,9 +150,16 @@ body{
 
 footer{
     height: 100px;
-    background-color:#500BED ;
 
 }
 h3{
     padding: 20px 0;
+}
+span{
+    color: red;
+    
+}
+footer p{
+    text-align: center;
+    padding: 30px 0;
 }
