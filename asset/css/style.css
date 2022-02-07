@@ -6,6 +6,9 @@
 .margin{
     margin: 1% 0;
 }
+.border{
+    border-radius: 10px;
+}
 
 body{
     margin: 1% 10%;
@@ -49,8 +52,27 @@ body{
 
 .first-container{
     height: 500px;
-    background-color: #2ECC71 ;
+    background-image: url('.././img/banner.jpg') ;
+    background-position: center;
+    position: relative;
 
+}
+
+.overlay{
+    background-color: rgba(0,0,0,0.2) ;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    
+}
+.testo-1{
+    position: absolute;
+    color: white;
+    bottom: 10%;
+    left: 5%;
+    width: 50%;
 }
 
 .second-container{
