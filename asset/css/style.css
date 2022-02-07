@@ -1,8 +1,10 @@
+/* General */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 .margin{
     margin: 1% 0;
 }
@@ -14,30 +16,52 @@ body{
     margin: 1% 10%;
     
 }
+.overlay{
+    background-color: rgba(0,0,0,0.2) ;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
 
+/* General */
+/* Macro sections */
+.first-container{
+    height: 500px;
+    background-image: url('.././img/banner.jpg') ;
+    background-position: center;
+    position: relative;
+}
+.second-container{
+    padding: 20px 0;
+}
+.third-container{
+    height: 500px;
+}
+footer{
+    height: 100px;
+}
+/* Macro sections */
 
 .logo{
     height: 90%;
-    
-    
 }
+
 .menu{
     height: 40%;
-    
 }
 
 .logo img{
     height: 70px;
-
 }
-
 
 .menu li{
     display:inline-block;
     padding: 0 10px;
     list-style:none;
-    
 }
+
 
 .menu li a{
     text-decoration: none;
@@ -50,23 +74,9 @@ body{
 
 
 
-.first-container{
-    height: 500px;
-    background-image: url('.././img/banner.jpg') ;
-    background-position: center;
-    position: relative;
 
-}
 
-.overlay{
-    background-color: rgba(0,0,0,0.2) ;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    
-}
+
 .testo-1{
     position: absolute;
     color: white;
@@ -75,18 +85,13 @@ body{
     width: 50%;
 }
 
-.second-container{
-    padding: 20px 0;
-}
+
 
 .second-container h2{
     font-size: 2em;
 }
 
-.third-container{
-    height: 500px;
 
-}
 .third-container::after{
     content: "";
     display: table;
@@ -148,10 +153,7 @@ body{
 }
 
 
-footer{
-    height: 100px;
 
-}
 h3{
     padding: 20px 0;
 }
